@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_dashboard/static/css/main.0ae083b9.chunk.css",
+    "main.css": "/react_dashboard/static/css/main.34624dca.chunk.css",
     "main.js": "/react_dashboard/static/js/main.5a3000ad.chunk.js",
     "main.js.map": "/react_dashboard/static/js/main.5a3000ad.chunk.js.map",
     "runtime-main.js": "/react_dashboard/static/js/runtime-main.daa14961.js",
@@ -8,9 +8,9 @@
     "static/js/2.09f1f0bd.chunk.js": "/react_dashboard/static/js/2.09f1f0bd.chunk.js",
     "static/js/2.09f1f0bd.chunk.js.map": "/react_dashboard/static/js/2.09f1f0bd.chunk.js.map",
     "index.html": "/react_dashboard/index.html",
-    "precache-manifest.42fdd6f1e1a3c9fe1dc6891499a1a783.js": "/react_dashboard/precache-manifest.42fdd6f1e1a3c9fe1dc6891499a1a783.js",
+    "precache-manifest.5a5dab0ac666b0c728dad895e82121e0.js": "/react_dashboard/precache-manifest.5a5dab0ac666b0c728dad895e82121e0.js",
     "service-worker.js": "/react_dashboard/service-worker.js",
-    "static/css/main.0ae083b9.chunk.css.map": "/react_dashboard/static/css/main.0ae083b9.chunk.css.map",
+    "static/css/main.34624dca.chunk.css.map": "/react_dashboard/static/css/main.34624dca.chunk.css.map",
     "static/js/2.09f1f0bd.chunk.js.LICENSE.txt": "/react_dashboard/static/js/2.09f1f0bd.chunk.js.LICENSE.txt",
     "static/media/arrow-icon.svg": "/react_dashboard/static/media/arrow-icon.8b9aa269.svg",
     "static/media/building-1.png": "/react_dashboard/static/media/building-1.e71c0b78.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.daa14961.js",
     "static/js/2.09f1f0bd.chunk.js",
-    "static/css/main.0ae083b9.chunk.css",
+    "static/css/main.34624dca.chunk.css",
     "static/js/main.5a3000ad.chunk.js"
   ]
 }

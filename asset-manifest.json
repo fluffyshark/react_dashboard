@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react_dashboard/static/css/main.a33efb04.chunk.css",
+    "main.js": "/react_dashboard/static/js/main.5a3000ad.chunk.js",
+    "main.js.map": "/react_dashboard/static/js/main.5a3000ad.chunk.js.map",
+    "runtime-main.js": "/react_dashboard/static/js/runtime-main.daa14961.js",
+    "runtime-main.js.map": "/react_dashboard/static/js/runtime-main.daa14961.js.map",
+    "static/js/2.09f1f0bd.chunk.js": "/react_dashboard/static/js/2.09f1f0bd.chunk.js",
+    "static/js/2.09f1f0bd.chunk.js.map": "/react_dashboard/static/js/2.09f1f0bd.chunk.js.map",
+    "index.html": "/react_dashboard/index.html",
+    "precache-manifest.bb9b2ad92a45a4f88b4f149d5fdb7a21.js": "/react_dashboard/precache-manifest.bb9b2ad92a45a4f88b4f149d5fdb7a21.js",
+    "service-worker.js": "/react_dashboard/service-worker.js",
+    "static/css/main.a33efb04.chunk.css.map": "/react_dashboard/static/css/main.a33efb04.chunk.css.map",
+    "static/js/2.09f1f0bd.chunk.js.LICENSE.txt": "/react_dashboard/static/js/2.09f1f0bd.chunk.js.LICENSE.txt",
+    "static/media/arrow-icon.svg": "/react_dashboard/static/media/arrow-icon.8b9aa269.svg",
+    "static/media/building-1.png": "/react_dashboard/static/media/building-1.e71c0b78.png",
+    "static/media/building-2.png": "/react_dashboard/static/media/building-2.2aeec069.png",
+    "static/media/building-3.png": "/react_dashboard/static/media/building-3.a8ac6203.png",
+    "static/media/building-4.png": "/react_dashboard/static/media/building-4.7502b96c.png",
+    "static/media/city_image.png": "/react_dashboard/static/media/city_image.62259b1a.png",
+    "static/media/green_arrow.png": "/react_dashboard/static/media/green_arrow.2777891d.png",
+    "static/media/profile_img.png": "/react_dashboard/static/media/profile_img.f10b1ace.png",
+    "static/media/search-icon.svg": "/react_dashboard/static/media/search-icon.a9028a6b.svg",
+    "static/media/side_building.png": "/react_dashboard/static/media/side_building.a2d4d1ac.png",
+    "static/media/turnover_icon.png": "/react_dashboard/static/media/turnover_icon.118979d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daa14961.js",
+    "static/js/2.09f1f0bd.chunk.js",
+    "static/css/main.a33efb04.chunk.css",
+    "static/js/main.5a3000ad.chunk.js"
+  ]
+}

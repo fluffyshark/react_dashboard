@@ -1,0 +1,43 @@
+.yearlyTurnover {
+    width: 100%;
+    height: 160.469px;
+    background-color: #535ada;
+    grid-row: 1;
+    grid-column: 2;
+    border-radius: 15px;
+    transition: transform .4s ease;
+    &:hover {transform: scale(.95);}
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40.11725px 40.11725px 40.11725px 40.11725px;
+
+    img {
+        width: 32px;
+        margin: 5px 5px 5px 10px;
+    }
+    &__number {
+        font-size: 40px;
+        margin: 0;
+        color: white;
+        margin: 5px 5px 5px 10px;
+
+        em {
+            font-size: 19px;
+            font-style: normal;  
+        }
+    }
+    &__description {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+        color: white;
+        margin: 12px 5px 5px 10px;
+    }
+    &__line {
+        margin: 0;
+        color: white;
+        font-size: 12px;
+        margin: 5px 5px 5px 12px;
+    }
+}

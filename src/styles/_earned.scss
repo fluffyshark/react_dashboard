@@ -1,0 +1,56 @@
+.earned {
+    width: 336px;
+    height: 100%;
+    background-color: $color-light-grey;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 7;
+    animation-delay: .50s;
+    transition: transform .4s ease;
+    &:hover {transform: scale(.95);}
+
+    display: grid;
+    grid-template-rows: 32.396px 32.396px 32.396px;
+    grid-template-columns: 23% 49% 9% 19%;
+
+    &__icon {
+        width: 55px;
+        grid-row: 2;
+        grid-column: 1;
+        justify-self: right;
+        align-self: center;
+    }
+    &__title-1 {
+        font-size: 13px;
+        grid-row: 2;
+        grid-column: 2;
+        color: white;
+        transform: translate(17px, -6px);
+        margin: 0;
+    }
+    &__number {
+        font-size: 26px;
+        color: white;
+        grid-row: 2;
+        grid-column: 2;
+        transform: translate(18px, -12px);
+    }
+    &__arrow {
+        width: 25px;
+        grid-row: 2;
+        grid-column: 4;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width: 1610px) {
+    .earned {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 25% 47% 9% 19%;
+
+        &__title-1 {transform: translate(15px, -6px);}
+        &__number {transform: translate(15px, -12px);}
+    }
+}

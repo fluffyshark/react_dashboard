@@ -1,16 +1,138 @@
 
-
-// iPhone X
-@media only screen and (max-width: 375px) and (min-width: 375px) and (max-height: 812px) and (min-height: 812px)  {
+// iPhone 11 and such
+@media only screen and (max-width: 415px) and (min-width: 400px) {
     .main {
         width: 100%;
+        grid-template-rows: 0px calc(105vh - 50px);
+        grid-template-columns: 100%;
+
+        &__container {width: 100%; grid-column: 1;}
 
         &__content {
-            width: 470px;
-            height: 591px;
+            width: 375px;
+            height: 625px;
+            overflow-x: hidden;
 
             &__top_section {
                 grid-template-columns: 239.2px 2px 219.188px;
+                justify-content: start;
+                margin-left:5px;
+
+                &__first_container {
+                    grid-template-columns: 0px 109.6px 0px 109.6px;
+                }
+            }
+
+            &__bottom_section {
+                grid-template-columns: 100%;
+                height: 630px;
+                margin-left: 4px;
+            }
+        }
+    }
+    .yearlyTurnover {width:89%}
+    .enterpriseClients {width:89%}
+    .city {
+        width: 56%;
+        transform: translate(-19px, -4px);
+        img {width: 90%;}
+    }
+    .locationContainer__content {
+        width: 91%;
+
+        #green_arrow {
+            transform: translate(-13px, 12px);
+        }
+    }
+    .earningsGraph {
+        width: 345px;
+
+        img {transform: translate(-300px, 24px);}
+
+        &__graph_container {width: 55%;}
+    }
+    .analyticsGraph {
+        width: 345px;
+
+        &__btn {transform: translate(-96px, 5px);}
+    }
+    .statisticGraph {
+        width: 345px;
+        height: 247px;
+    }
+    .navbar {
+        grid-template-columns: 53px 4px 59px 71px 47px 195px;
+        &__text1 {font-size: 16px;}
+        &__text2 {font-size: 16px;}
+        &__text3 {font-size: 16px;}
+        &__input {width:50%}
+    }
+    .menu {
+        grid-template-columns: 87px 45px 85px 50px 72px;
+        &__text-1 {font-size: 14px;}
+        &__text-2 {font-size: 14px;}
+        &__text-3 {font-size: 14px;}
+        &__text-4 {font-size: 14px;}
+        &__text-5 {font-size: 14px;}
+    }
+
+    .side_container {
+        height: 100vh;
+        grid-template-rows: 70px 80px 80px 8px 80px 8px 80px 12px 62px 0px 146px;
+        width: 80%;
+
+        &__current_stats{ 
+            &__title {
+                font-size: 20px;
+                transform: translate(1px, 0px);
+            }
+            &__pulse_icon {width: 45px;}
+        }
+    }
+    .openProjects {grid-template-rows: 24px 32.396px 32.396px;}
+    .completed {grid-template-rows: 24px 32.396px 32.396px;}
+    .earned {grid-template-rows: 24px 32.396px 32.396px;}
+    .premium {
+        grid-template-rows: 35px 67px 43px;
+
+        &__sidebuilding {
+            width: 124px;
+            transform: translateY(-66px);
+        }
+        &__text-1 {font-size: 15px;}
+        &__text-2 {font-size: 15px; transform: translateY(28px);}
+        &__btn {
+            width: 110px;
+            height: 22px;
+            p {margin-top: 5px; font-size: 12px;}
+        }
+    }
+
+} // end of @media
+
+
+// -------------------------------------------------------
+
+
+
+// iPhone X with Safari viewport
+@media only screen and (max-width: 375px) and (min-width: 325px) and (max-height: 700px) and (min-height: 500px)  {
+    .main {
+        width: 375px;
+        grid-template-rows: 0px;
+        grid-template-columns: 5px calc(100% - 300px) 10px;
+
+
+        &__content {
+            width: 375px;
+            height: 480px;
+            overflow-x: hidden;
+            
+
+            &__top_section {
+                grid-template-columns: 239.2px 2px 219.188px;
+                justify-content: start;
+                margin-left: 5px;
 
 
                 &__first_container {
@@ -20,7 +142,127 @@
 
             &__bottom_section {
                 grid-template-columns: 100%;
+                height: 617px;
+                margin-left: 4px;
+            }
+        }
+    }
+    .yearlyTurnover {width:89%}
+    .enterpriseClients {width:89%}
+    .city {
+        width: 56%;
+        transform: translate(-19px, -4px);
+        img {width: 90%;}
+    }
+    .locationContainer__content {
+        width: 91%;
+
+        #green_arrow {
+            transform: translate(-13px, 12px);
+        }
+    }
+    .earningsGraph {
+        width: 345px;
+
+        img {transform: translate(-300px, 24px);}
+
+        &__graph_container {width: 55%;}
+    }
+    .analyticsGraph {
+        width: 345px;
+
+        &__btn {transform: translate(-96px, 5px);}
+    }
+    .statisticGraph {
+        width: 345px;
+        height: 247px;
+    }
+    .navbar {
+        grid-template-columns: 53px 4px 59px 71px 47px 195px;
+        &__text1 {font-size: 16px;}
+        &__text2 {font-size: 16px;}
+        &__text3 {font-size: 16px;}
+        &__input {width:50%}
+    }
+    .menu {
+        grid-template-columns: 87px 45px 85px 50px 72px;
+        &__text-1 {font-size: 14px;}
+        &__text-2 {font-size: 14px;}
+        &__text-3 {font-size: 14px;}
+        &__text-4 {font-size: 14px;}
+        &__text-5 {font-size: 14px;}
+    }
+
+    .side_container {
+        height: 100vh;
+        grid-template-rows: 70px 80px 80px 8px 80px 8px 80px 12px 62px 0px 146px;
+        width: 80%;
+
+        &__current_stats{ 
+            &__title {
+                font-size: 20px;
+                transform: translate(1px, 0px);
+            }
+            &__pulse_icon {width: 45px;}
+        }
+    }
+    .openProjects {grid-template-rows: 24px 32.396px 32.396px;}
+    .completed {grid-template-rows: 24px 32.396px 32.396px;}
+    .earned {grid-template-rows: 24px 32.396px 32.396px;}
+    .premium {
+        grid-template-rows: 35px 67px 43px;
+
+        &__sidebuilding {
+            width: 124px;
+            transform: translateY(-66px);
+        }
+        &__text-1 {font-size: 15px;}
+        &__text-2 {font-size: 15px; transform: translateY(28px);}
+        &__btn {
+            width: 110px;
+            height: 22px;
+            p {margin-top: 5px; font-size: 12px;}
+        }
+    }
+    
+
+
+} // end of @media
+
+
+
+// -------------------------------------------------------
+
+
+
+// iPhone X with fullscreen
+@media only screen and (max-width: 375px) and (min-width: 375px) and (max-height: 812px) and (min-height: 812px)  {
+    .main {
+        width: 375px;
+        grid-template-rows: 0px calc(105vh - 50px);
+        grid-template-columns: 6px calc(100% - 300px) 10px;
+
+        &__container {width: 100%;}
+
+        &__content {
+            width: 375px;
+            height: 625px;
+            overflow-x: hidden;
+
+            &__top_section {
+                grid-template-columns: 239.2px 2px 219.188px;
+                justify-content: start;
+                margin-left:5px;
+
+                &__first_container {
+                    grid-template-columns: 0px 109.6px 0px 109.6px;
+                }
+            }
+
+            &__bottom_section {
+                grid-template-columns: 100%;
                 height: 545px;
+                margin-left: 4px;
             }
         }
     }
